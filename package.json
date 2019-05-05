@@ -15,7 +15,9 @@
     "lint": "eslint --ignore-path .gitignore .",
     "prebuild": "rimraf build/*",
     "start": "node build/server",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "lint-staged": {
     "*.js": [
@@ -82,6 +84,8 @@
     "webpack-dev-middleware": "1.12.0",
     "webpack-hot-middleware": "2.20.0",
     "webpack-md5-hash": "0.0.5",
-    "webpack-node-externals": "1.6.0"
-  }
+    "webpack-node-externals": "1.6.0",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
