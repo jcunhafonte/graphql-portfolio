@@ -62,7 +62,7 @@
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
     "file-loader": "1.1.5",
-    "graphiql": "^0.11.10",
+    "graphiql": "^0.11.11",
     "graphiql-material-theme": "^1.0.3",
     "graphql": "^0.11.7",
     "graphql-tools": "^2.7.2",
